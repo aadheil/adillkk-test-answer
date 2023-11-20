@@ -4,7 +4,7 @@ import {API_KEY} from '../../apikey';
 
 function Search({ searchTerm }) {
 
-    const [results, setResults] = useState([]);
+    const [result, setResults] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const fetchResults = (term) => {
 
@@ -23,7 +23,7 @@ function Search({ searchTerm }) {
    
     useEffect(() => {
         fetchResults(searchTerm)
-    }, [searchTerm]);
+    }, []);
 
     return (<section>
         {loaded ? <MovieGrid results={results}/>

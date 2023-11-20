@@ -3,13 +3,13 @@ import Details from "./Details";
 
 function MovieGrid({ results }) {
     const [isOpen, setIsOpen] = useState(false);
-    const movie = useRef({name:"eee"});
-
+    const [movie, setMovie] = useState({});
+    
     const showDetails = (index)=>{
-        movie.current = results[index]
-        console.log();
+        setMovie(results[index])
         setIsOpen(true)
     }
+
 
     return (
         <div className="grid grid-cols-4 gap-3">

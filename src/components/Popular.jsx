@@ -13,7 +13,6 @@ function Popular() {
         )
             .then(res => res.json())
             .then(res => {
-                console.log(res.results);
                 setPopular(res.results ?? [])
                 setLoaded(true)
 
@@ -32,4 +31,4 @@ function Popular() {
     </section>);
 }
 
-export default Popular;
+//export default Popular;

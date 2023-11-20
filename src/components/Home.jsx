@@ -8,7 +8,7 @@ class Home extends Component {
     state = { searchTerm: '' }
 
     handleInput = (e) => {
-        console.log(e.target.value);
+        
         this.setState({
             searchTerm: e.target.value,
         
