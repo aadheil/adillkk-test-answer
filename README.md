@@ -1,5 +1,7 @@
 # IHRD PMD REACT TEST
 
+Reference Photo given with this zip file
+
 1. Stop UI From Crashing
 2. Fix The CSS 
 3. Make The Page Functional 
