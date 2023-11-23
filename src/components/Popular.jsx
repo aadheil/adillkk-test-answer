@@ -31,4 +31,4 @@ function Popular() {
     </section>);
 }
 
-//export default Popular;
+export default Popular;

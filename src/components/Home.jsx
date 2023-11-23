@@ -18,9 +18,9 @@ class Home extends Component {
 
     // Do not change the render function
     render() {
-        return <div className="relative w-full">
-            <div className="search-input w-full">
-                <input type="text" name="search"  className='w-[1100px] p-3 my-2 rounded-lg h-12' onChange={(e) => this.handleInput(e)} placeholder="Start typing to show results..." />
+        return <div className=" w-full ">
+            <div className="search-input d-flex justify-content-center">
+                <input type="text" name="search"  className=' form-control bg-transparent rounded-lg h-12 justify-center text-light' style={{width:'74%'}}  onChange={(e) => this.handleInput(e)} placeholder="Start typing to show results..." />
             </div>
             {this.state.searchTerm.length == 0  ? <Popular {...this.props} /> : <Search searchTerm={this.state.searchTerm} />}
         </div>

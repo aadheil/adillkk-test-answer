@@ -23,10 +23,10 @@ function Search({ searchTerm }) {
    
     useEffect(() => {
         fetchResults(searchTerm)
-    }, []);
+    }, [searchTerm]);
 
     return (<section>
-        {loaded ? <MovieGrid results={results}/>
+        {loaded ? <MovieGrid results={result}/>
             : <div className="loading">Loading...</div>
         }
 
