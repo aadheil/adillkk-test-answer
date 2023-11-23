@@ -1,3 +1,4 @@
-const API_KEY = "d6b3aec4db7fb21e4dfcfea2c5b3c359";
+const API_KEY = "f9a8761db027e456677a3b97855208a2";
 export { API_KEY };
-// eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNmIzYWVjNGRiN2ZiMjFlNGRmY2ZlYTJjNWIzYzM1OSIsInN1YiI6IjY1NWI2N2U5YjU0MDAyMTRkM2NjMjk4OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Lgf9SRhVBCeZGfXNali_ru7PjJEHi9wJo6Aagw1IvjQ
+
+// This file is purposefully excluded .gitignore

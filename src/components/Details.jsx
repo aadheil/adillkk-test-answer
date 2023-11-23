@@ -1,8 +1,12 @@
+import React from "react";
+import MovieGrid from "./MovieGrid";
+
+
 function Details({ setOpenModal, movie }) {
 
     return (
         <>
-            <div className='bg-black/80 w-[100vw] z-10 h-[100vh]  fixed top-0 left-0' onClick={() => setOpenModal(false)} />
+            <div className='bg-light w-full z-10 h-[100vh]  fixed top-0 left-0' onClick={() => setOpenModal(false)} />
             <div><img src={'https://image.tmdb.org/t/p/w500' + movie.poster_path} alt={movie.original_title} /></div>
             <div className='absolute w-full flex justify-center items-center z-30 '>
                 <div className=" bg-black/80  p-6 rounded-lg ">
